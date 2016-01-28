@@ -40,7 +40,7 @@ var HCardForm = React.createClass({
     render: function() {
         var firstname = this.state.firstname;
         return (
-            <div>
+                <div>
         	      <input type = "text" name = "firstname" defaultValue = {this.props.hcard.firstname} onChange = {this.handleChange} />
                   <input type = "text" name = "lastname" defaultValue = {this.props.hcard.lastname} onChange = {this.handleChange}/> 
                 </div>
